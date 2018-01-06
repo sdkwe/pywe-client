@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from local_wecfg_example import CONDITIONALMENUS, MENUS, OPENID, WECHAT
 from pywe_menu import (Menu, add_conditional, create_menu, del_conditional, del_menu, delete_conditional, delete_menu,
                        get_current_selfmenu_info, get_menu, try_match)
+
+from local_wecfg_example import CONDITIONALMENUS, MENUS, OPENID, WECHAT
 
 
 class TestMenuCommands(object):
